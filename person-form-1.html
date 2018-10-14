@@ -1,0 +1,934 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Form-1</title>
+
+    <!-- Icon css link -->
+    <link href="vendors/material-icon/css/materialdesignicons.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="vendors/linears-icon/style.css" rel="stylesheet">
+
+    <!-- RS5.0 Layers and Navigation Styles -->
+    <link rel="stylesheet" type="text/css" href="vendors/revolution/css/layers.css">
+    <link rel="stylesheet" type="text/css" href="vendors/revolution/css/navigation.css">
+    <link rel="stylesheet" type="text/css" href="vendors/revolution/css/settings.css">
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.rtl.min.css" rel="stylesheet">
+    <link href="vendors/image-dropdown/dd.css" rel="stylesheet">
+    <link href="vendors/image-dropdown/flags.css" rel="stylesheet">
+    <link href="vendors/image-dropdown/skin2.css" rel="stylesheet">
+    <link href="vendors/magnific-popup/magnific-popup.css" rel="stylesheet">
+    <link href="vendors/bootstrap-selector/bootstrap-select.css" rel="stylesheet">
+    <link href="vendors/bootstrap-datepicker/css/bootstrap-datetimepicker.min.css" rel="stylesheet">
+    <link href="vendors/owl-carousel/assets/owl.carousel.css" rel="stylesheet">
+    <link href="vendors/animate-css/animate.css" rel="stylesheet">
+    <link href="vendors/bs-tooltip/jquery.webui-popover.css" rel="stylesheet">
+    <link href="vendors/jquery-ui/jquery-ui.css" rel="stylesheet">
+
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+</head>
+
+<body>
+
+    <div class="login_form_inner zoom-anim-dialog mfp-hide" id="small-dialog">
+        <h4>دخول مستخدم</h4>
+        <form>
+            <input type="text" placeholder=" البريد الالكتروني">
+            <input type="password" placeholder="كلمة المرور">
+            <div class="login_btn_area">
+                <button type="submit" value="LogIn" class="btn form-control login_btn">دخول</button>
+
+            </div>
+        </form>
+        <img class="mfp-close" src="img/close-btn.png" alt="">
+    </div>
+
+    <div class="register_form_inner zoom-anim-dialog mfp-hide" id="register_form">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="registration_man">
+                    <img src="img/Registration_man.png" alt="">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="registration_form_s">
+                    <h4>حساب جديد</h4>
+                    <form>
+                        <!-- <div class="form-group">
+                                                <input type="text" class="form-control" id="reg_first" placeholder="الاسم بالكامل">
+                                            </div> -->
+
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="reg_email" placeholder="البريد الالكتروني">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="reg_email" placeholder=" رقم الجوال">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control" id="reg_pass" placeholder="كلمة المرور">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control" id="reg_pass" placeholder="  اعادة كلمة المرور">
+                        </div>
+
+                        <div class="reg_chose form-group">
+
+                            <button type="submit" value="LogIn" class="btn form-control login_btn">استكمال</button>
+                            <div class="reg_check_box">
+                                <input type="radio" id="s-option" name="selector">
+                                <label for="s-option">أنا لست روبوت
+                                </label>
+                                <div class="check">
+                                    <div class="inside"></div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </form>
+                    <img class="mfp-close" src="img/close-btn.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--================Frist Main hader Area =================-->
+    <header class="header_menu_area">
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+                        aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html">
+                        <img src="img/logo.png" alt="" class="Img_size">
+                    </a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li class=" active">
+                            <a href="#">الرئيسية</a>
+
+                        </li>
+                        <li>
+                            <a href="#">الاكثر اهتماما</a>
+
+                        </li>
+                        <li>
+                            <a href="#">من نحن</a>
+
+                        </li>
+                        <li>
+                            <a href="#">تواصل معنا</a>
+
+                        </li>
+
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a class="popup-with-zoom-anim" href="#small-dialog">
+                                <i class="mdi mdi-key-variant"></i>دخول</a>
+                        </li>
+                        <li>
+                            <a href="#register_form" class="popup-with-zoom-anim">
+                                <i class="fa fa-user-plus"></i>حساب عضو
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#register_form" class="popup-with-zoom-anim">
+                                <i class="fa fa-user-plus"></i>حساب خاطبه
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
+    </header>
+    <!--================Frist Main hader Area =================-->
+
+    <!--================Banner Area =================-->
+    <section class="banner_area">
+        <div class="container">
+            <div class="banner_content">
+                <h3 title="معلومات الشخصية ">
+                    <img class="left_img" src="img/banner/t-left-img.png" alt="">معلومات الشخصية
+                    <img class="right_img" src="img/banner/t-right-img.png" alt="">
+                </h3>
+                <a href="index.html">الرئيسية</a>
+                <a href="">المعلومات الشخصية </a>
+            </div>
+        </div>
+    </section>
+    <!--================End Banner Area =================-->
+
+    <!--================Blog grid Area =================-->
+    <section class="blog_grid_area sticky_story_area">
+        <div class="container">
+            <div class="welcome_title">
+                <h3>أستكمال البيانات الشخصيه</h3>
+                <img src="img/w-title-b.png" alt="">
+            </div>
+            <div class="row m0">
+                <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2 form-wizard">
+
+                    <!-- Form Wizard -->
+                    <form role="form" action="" method="post">
+
+                        <h3>خطوات استكمال البيانات</h3>
+                        <p>املأ كل حقل النموذج للانتقال إلى الخطوة التالية </p>
+
+                        <!-- Form progress -->
+                        <div class="form-wizard-steps form-wizard-tolal-steps-4">
+                            <div class="form-wizard-progress">
+                                <div class="form-wizard-progress-line" data-now-value="12.25" data-number-of-steps="4"
+                                    style="width: 12.25%;"></div>
+                            </div>
+                            <!-- Step 1 -->
+                            <div class="form-wizard-step active">
+                                <div class="form-wizard-step-icon">
+                                    <i class="fa fa-user" aria-hidden="true"></i>
+                                </div>
+                                <p>المعلومات الشخصية</p>
+                            </div>
+                            <!-- Step 1 -->
+
+                            <!-- Step 2 -->
+                            <div class="form-wizard-step">
+                                <div class="form-wizard-step-icon">
+                                    <i class="fa fa-location-arrow" aria-hidden="true"></i>
+                                </div>
+                                <p>المعلومات العامة</p>
+                            </div>
+                            <!-- Step 2 -->
+
+                            <!-- Step 3 -->
+                            <div class="form-wizard-step">
+                                <div class="form-wizard-step-icon">
+                                    <i class="fa fa-briefcase" aria-hidden="true"></i>
+                                </div>
+                                <p>المعلومات الخاصة</p>
+                            </div>
+                            <!-- Step 3 -->
+
+                            <!-- Step 4 -->
+                            <div class="form-wizard-step">
+                                <div class="form-wizard-step-icon">
+                                    <i class="fa fa-adjust"></i>
+                                </div>
+                                <p>المعلومات الدينية</p>
+                            </div>
+                            <!-- Step 4 -->
+                        </div>
+                        <!-- Form progress -->
+
+
+                        <!-- Form Step 1 -->
+                        <fieldset>
+
+                            <div class="col-lg-6 text-center">
+                                <h5 class="padding-10">إرفاق صورة الهوية </h5>
+                                <div class="avatar-upload">
+                                    <div class="avatar-edit">
+                                        <input type='file' id="imageUpload" accept=".png, .jpg, .jpeg" />
+                                        <label for="imageUpload"></label>
+                                    </div>
+                                    <div class="avatar-preview">
+                                        <div id="imagePreview" style="background-image:url(img/ID.png) ;">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 text-center">
+                                <h5 class="padding-10"> إرفاق الصورة الشخصية </h5>
+
+                                <div class="avatar-upload">
+                                    <div class="avatar-edit">
+                                        <input type='file' id="imageUpload" accept=".png, .jpg, .jpeg" />
+                                        <label for="imageUpload"></label>
+                                    </div>
+                                    <div class="avatar-preview">
+                                        <div id="imagePreview" style="background-image: url(img/pic.png);">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group col-lg-6">
+                                <label> اختيار المعرف :
+                                    <span>*</span>
+                                </label>
+                                <input type="text" name="First Name" placeholder="   Mohamed5585" class="form-control required">
+                            </div>
+                            <div class="form-group col-lg-6">
+                                <label> الاسم الشخصي :
+                                    <span>*</span>
+                                </label>
+                                <input type="text" name="Last Name" placeholder="  محمد سمير سليم " class="form-control required">
+                            </div>
+
+                            <div class="form-wizard-buttons">
+                                <button type="button" class="btn btn-next">التالي</button>
+                            </div>
+                        </fieldset>
+                        <!-- Form Step 1 -->
+
+                        <!-- Form Step 2 -->
+                        <fieldset>
+
+                            <!-- <h4>Contact Information :
+                                <span>Step 2 - 4</span>
+                            </h4> -->
+                            <div class="form-group padding-10 col-lg-12">
+                                <label>الجنس :
+                                    <span>*</span>
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="Gender" value="option1" checked="checked"> ذكر
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="Gender" value="option2"> أنثى
+                                </label>
+                            </div>
+                            <div class="form-group col-lg-12">
+                                <label>الحالة:
+                                    <span>*</span>
+                                </label>
+                                <select class="form-control">
+                                    <option value="">أختر الحالة ...</option>
+                                    <option value="Married">أعزب </option>
+                                    <option value="Divorced">عزباء </option>
+                                    <option value="Un-Married">مطلقة </option>
+                                    <option value="Widowed">مطلق</option>
+                                </select>
+                            </div>
+                            <div class="form-group col-lg-12">
+                                <label>الرغبة بالطرف الآخر :
+                                    <span>*</span>
+                                </label>
+                                <select class="form-control">
+                                    <option value=""> ابحث عن ...</option>
+                                    <option value="">زوج </option>
+                                    <option value="">زوجه </option>
+
+                                </select>
+                            </div>
+                            <div class="form-group ">
+                                <div class="col-lg-12">
+                                    <label>عدد الأولاد:
+                                        <span>*</span>
+                                    </label>
+                                </div>
+                                <div class="col-lg-4">
+                                    <input type="text" placeholder="عدد الاولاد" class="form-control required">
+
+                                </div>
+                                <div class="col-lg-4">
+                                    <input type="text" placeholder="عدد البنات" class="form-control required">
+
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="form-check">
+                                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                        <label class="form-check-label" for="exampleCheck1">لا يوجد </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group col-lg-12">
+                                <label>الرغبة في الحمل من الشريك:
+                                    <span>*</span>
+                                </label>
+                                <select class="form-control">
+                                    <option value=""> أرغب </option>
+                                    <option value="">لا أرغب </option>
+                                    <option value="">نتفق على ذلك </option>
+
+                                </select>
+                            </div>
+                            <!-- My info -->
+                            <div class="col-lg-6 INFo">
+                                <h3> مواصفاتي </h3>
+
+                                <div class="form-group col-lg-12">
+                                    <label>الجنسية:
+                                        <span>*</span>
+                                    </label>
+                                    <input type="text" name="City" placeholder="سعودي" class="form-control required">
+                                </div>
+                                <div class="form-group col-lg-12">
+                                    <label>الدولة :
+                                        <span>*</span>
+                                    </label>
+                                    <input type="text" name="State" placeholder="السعودية" class="form-control required">
+                                </div>
+
+                                <div class="form-group col-lg-12">
+                                    <label>البلد: </label>
+                                    <select class="form-control">
+                                        <option>جده</option>
+                                        <option>الرياض</option>
+
+                                    </select>
+                                </div>
+                                <div class="form-group col-lg-12">
+                                    <label>العرق :
+                                        <span>*</span>
+                                    </label>
+                                    <input type="text" name="State" placeholder="السعودية" class="form-control required">
+                                </div>
+
+                                <div class="form-group col-lg-4">
+                                    <label>العمر :
+                                        <span>*</span>
+                                    </label>
+                                    <div id="input_div text-center">
+                                        <input type="number" size="7" value="18" id="count" class="text-center">
+
+                                    </div>
+                                </div>
+                                <div class="form-group col-lg-4">
+                                    <label>الوزن :
+                                        <span>*</span>
+                                    </label>
+                                    <div id="input_div text-center">
+                                        <input type="number" size="30" value="18" id="count" class="text-center">
+
+                                    </div>
+                                </div>
+                                <div class="form-group col-lg-4">
+                                    <label>الطول :
+                                        <span>*</span>
+                                    </label>
+                                    <div id="input_div text-center">
+                                        <input type="number" size="120" value="18" id="count" class="text-center">
+
+                                    </div>
+                                </div>
+                                <div class="form-group col-lg-12">
+                                    <label>بنية الجسم:
+                                        <span>*</span>
+                                    </label>
+                                    <select class="form-control">
+                                        <option>رشيق </option>
+                                        <option>رياضي </option>
+                                        <option>نحيف </option>
+                                        <option>سمين </option>
+                                    </select>
+                                </div>
+                                <div class="form-group col-lg-12">
+                                    <label>لون البشرة :
+                                        <span>*</span>
+                                    </label>
+                                    <select class="form-control">
+                                        <option>أبيض </option>
+                                        <option>قمحي فاتح </option>
+                                        <option>قمحي غامق </option>
+                                        <option>أسمر </option>
+                                    </select>
+                                </div>
+                                <div class="form-group col-lg-12">
+                                    <label> لون الشعر :
+                                        <span>*</span>
+                                    </label>
+                                    <select class="form-control">
+                                        <option>أسود </option>
+                                        <option>بني غامق </option>
+
+                                    </select>
+                                </div>
+                            </div>
+                            <!-- partener sec -->
+                            <div class="col-lg-6 partner">
+                                <h3>طلباتي من شريك حياتي </h3>
+                                <div class="form-group col-lg-12">
+                                    <label>الجنسية:
+                                        <span>*</span>
+                                    </label>
+                                    <input type="text" name="City" placeholder="سعودي" class="form-control required">
+                                </div>
+                                <div class="form-group col-lg-12">
+                                    <label>الدولة :
+                                        <span>*</span>
+                                    </label>
+                                    <input type="text" name="State" placeholder="السعودية" class="form-control required">
+                                </div>
+
+                                <div class="form-group col-lg-12">
+                                    <label>البلد: </label>
+                                    <select class="form-control">
+                                        <option>جده</option>
+                                        <option>الرياض</option>
+
+                                    </select>
+                                </div>
+                                <div class="form-group col-lg-12">
+                                    <label>العرق :
+                                        <span>*</span>
+                                    </label>
+                                    <input type="text" name="State" placeholder="السعودية" class="form-control required">
+                                </div>
+
+                                <div class="form-group col-lg-4">
+                                    <label>العمر :
+                                        <span>*</span>
+                                    </label>
+                                    <div id="input_div text-center">
+                                        <input type="number" size="15" value="18" id="count" class="text-center">
+
+                                    </div>
+                                </div>
+                                <div class="form-group col-lg-4">
+                                    <label>الوزن :
+                                        <span>*</span>
+                                    </label>
+                                    <div id="input_div text-center">
+                                        <input type="number" size="30" value="18" id="count" class="text-center">
+
+                                    </div>
+                                </div>
+                                <div class="form-group col-lg-4">
+                                    <label>الطول :
+                                        <span>*</span>
+                                    </label>
+                                    <div id="input_div text-center">
+                                        <input type="number" size="120" value="18" id="count" class="text-center">
+
+                                    </div>
+                                </div>
+                                <div class="form-group col-lg-12">
+                                    <label>بنية الجسم:
+                                        <span>*</span>
+                                    </label>
+                                    <select class="form-control">
+                                        <option>رشيق </option>
+                                        <option>رياضي </option>
+                                        <option>نحيف </option>
+                                        <option>سمين </option>
+                                    </select>
+                                </div>
+                                <div class="form-group col-lg-12">
+                                    <label>لون البشرة :
+                                        <span>*</span>
+                                    </label>
+                                    <select class="form-control">
+                                        <option>أبيض </option>
+                                        <option>قمحي فاتح </option>
+                                        <option>قمحي غامق </option>
+                                        <option>أسمر </option>
+                                    </select>
+                                </div>
+                                <div class="form-group col-lg-12">
+                                    <label> لون الشعر :
+                                        <span>*</span>
+                                    </label>
+                                    <select class="form-control">
+                                        <option>أسود </option>
+                                        <option>بني غامق </option>
+
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-wizard-buttons col-lg-12">
+                                <button type="button" class="btn btn-previous">السابق</button>
+                                <button type="button" class="btn btn-next">التالي</button>
+                            </div>
+                        </fieldset>
+                        <!-- Form Step 2 -->
+
+                        <!-- Form Step 3 -->
+                        <fieldset>
+
+
+                            <div class="form-group col-lg-12 padding-10">
+                                <label>الحالة المادية:
+                                    <span>*</span>
+                                </label>
+                                <select class="form-control">
+                                    <option>غني </option>
+                                    <option> ميسور </option>
+                                    <option>جيدة </option>
+                                    <option>مقتدر </option>
+                                    <option>غير ذلك </option>
+
+                                </select>
+
+                            </div>
+                            <div class="form-group col-lg-12 ">
+                                <label> الحالة الصحية:
+                                    <span>*</span>
+                                </label>
+                                <select class="form-control">
+                                    <option>سليم </option>
+                                    <option> مريض </option>
+                                    <option>إعاقة </option>
+                                    <option>حالة خاصة </option>
+                                    <option>غير ذلك </option>
+
+                                </select>
+
+                            </div>
+                            <div class="form-group col-lg-12">
+                                <label> أرغب ب :
+                                    <span>*</span>
+                                </label>
+                                <select class="form-control">
+                                    <option>سليم </option>
+                                    <option> مريض </option>
+                                    <option>إعاقة </option>
+                                    <option>حالة خاصة </option>
+                                    <option>غير ذلك </option>
+
+                                </select>
+
+                            </div>
+                            <div class="form-group col-lg-12">
+                                <label>متوسط الدخل الشهري:
+                                    <span>*</span>
+                                </label>
+                                <input type="text" name="Designation" placeholder="150 LE" class="form-control required">
+                            </div>
+                            <div class="form-group col-lg-12 ">
+                                <label> الحالة العلمية :
+                                    <span>*</span>
+                                </label>
+                                <select class="form-control">
+                                    <option>دراسة ماقبل الثانوية </option>
+                                    <option> ثانوية </option>
+                                    <option>جامعة </option>
+                                    <option> ماجستير </option>
+                                    <option> دكتوراة </option>
+
+                                </select>
+
+                            </div>
+                            <div class="form-group col-lg-12">
+                                <label>وظيفة :
+                                    <span>*</span>
+                                </label>
+                                <select class="form-control">
+                                    <option>قطاع حكومي </option>
+                                    <option> خاص </option>
+                                    <option>تجارة </option>
+
+
+                                </select> </div>
+                                <div class="form-group col-lg-12">
+                                    <label>المنصب  :
+                                        <span>*</span>
+                                    </label>
+                                    <input type="text" name="Designation" placeholder="150 LE" class="form-control required">
+                                </div>
+                                <div class="form-group col-lg-12">
+                                    <label>الموافقة على عمل المرأة :
+                                        <span>*</span>
+                                    </label>
+                                    <select class="form-control">
+                                        <option>أوافق      </option>
+                                        <option> لا أوافق     </option>
+                                        <option>بشرط </option>
+
+
+                                    </select> </div>
+                                    <div class="form-group col-lg-12">
+                                        <label>هوياتي  :
+                                            <span>*</span>
+                                        </label>
+                                        <input type="text" name="Designation" placeholder="القراءه الانترنت ..." class="form-control required">
+                                    </div>
+
+                            <br />
+                            <div class="form-wizard-buttons">
+                                <button type="button" class="btn btn-previous">السابق</button>
+                                <button type="button" class="btn btn-next">التالي</button>
+                            </div>
+                        </fieldset>
+                        <!-- Form Step 3 -->
+
+                        <!-- Form Step 4 -->
+                        <fieldset>
+
+
+                            <div style="clear:both;"></div>
+                            <div class="form-group">
+                                <label>الدين والأخلاق :
+                                    <span>*</span>
+                                </label>
+                                <input type="text" name="Bank Name" placeholder="Bank Name" class="form-control required">
+                            </div>
+                            <div class="form-group">
+                                <label>Payment Type : </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="Payment" value="option1" checked="checked"> Master Card
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="Payment" value="option2"> Visa Card
+                                </label>
+                            </div>
+                            <div class="form-group">
+                                <label>Holder Name:
+                                    <span>*</span>
+                                </label>
+                                <input type="text" name="Holder Name" placeholder="Holder Name" class="form-control required">
+                            </div>
+                            <div class="container-fluid">
+                                <div class="row form-inline">
+                                    <div class="form-group col-md-6 col-xs-6">
+                                        <label>Card Number:
+                                            <span>*</span>
+                                        </label>
+                                        <input type="text" name="Card Number" placeholder="Card Number" class="form-control required">
+                                    </div>
+                                    <div class="form-group col-md-6 col-xs-6">
+                                        <label>CVC:
+                                            <span>*</span>
+                                        </label>
+                                        <input type="text" name="CVC" placeholder="CVC" class="form-control required">
+                                    </div>
+                                </div>
+                            </div>
+                            <br />
+                            <div class="container-fluid">
+                                <div class="row form-inline">
+                                    <div class="form-group col-md-3 col-xs-3">
+                                        <label>Expiry Date: </label>
+                                    </div>
+                                    <div class="form-group col-md-3 col-xs-3">
+                                        <label>Month: </label>
+                                        <select class="form-control">
+                                            <option>Jan</option>
+                                            <option>Feb</option>
+                                            <option>Mar</option>
+                                            <option>Apr</option>
+                                            <option>May</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group col-md-3 col-xs-3">
+                                        <label>Year: </label>
+                                        <select class="form-control">
+                                            <option>2017</option>
+                                            <option>2018</option>
+                                            <option>2019</option>
+                                            <option>2020</option>
+                                            <option>2021</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <br />
+                            <div class="form-wizard-buttons">
+                                <button type="button" class="btn btn-previous">Previous</button>
+                                <button type="submit" class="btn btn-submit">Submit</button>
+                            </div>
+                        </fieldset>
+                        <!-- Form Step 4 -->
+
+                    </form>
+                    <!-- Form Wizard -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--================End Blog grid Area =================-->
+
+
+    <!--================Footer Area =================-->
+    <footer class="footer_area">
+        <div class="footer_widgets_area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <aside class="f_widget">
+                            <div class="vero_widget">
+                                <h4>
+                                    <span>ميثاق </span>
+                                </h4>
+                                <p>نبذه بسيطه عن الموقع وبعض النصوص التعريفية</p>
+                                <p>نبذه بسيطه عن الموقع وبعض النصوص التعريفية</p>
+
+                            </div>
+                        </aside>
+                    </div>
+                    <div class="col-md-4">
+                        <aside class="f_widget">
+                            <div class="f_widget_title">
+                                <h3>معلومات</h3>
+                            </div>
+                            <div class="information_widget">
+                                <ul>
+                                    <li>
+                                        <a href="#">من نحن</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">تواصل معنا</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">الاعضاء</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">الشروط والاحكتم</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">الاسئله الشائعه</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </aside>
+                    </div>
+
+                    <div class="col-md-4">
+                        <aside class="f_widget">
+                            <div class="f_widget_title">
+                                <h3>الاشتراك في الرسائل الإخبارية
+                                </h3>
+                            </div>
+                            <div class="newsletter_widget">
+                                <p>الحصول على تنبيه مباشرة إلى صندوق الوارد الخاص بك بعد كل وظيفة.
+                                </p>
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="البريد الالكتروني">
+                                    <span class="input-group-btn">
+                                        <button class="btn btn-default" type="button">
+                                            <i class="fa fa-paper-plane" aria-hidden="true"></i>
+                                        </button>
+                                    </span>
+                                </div>
+                            </div>
+                        </aside>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <div class="copyright_left">
+                <div class="copyright_text">
+                    <h4>جميع الحقوق محفوظه © 2018.
+                        <a href="#"></a> . </h4>
+                </div>
+            </div>
+            <div class="copyright_right">
+                <div class="copyright_social">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-pinterest" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-google-plus" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-google-plus" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-vimeo" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--================End Footer Area =================-->
+
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="vendors/revolution/js/jquery.themepunch.tools.min.js"></script>
+    <script src="vendors/revolution/js/jquery.themepunch.revolution.min.js"></script>
+    <!--RS5.0 Extensions-->
+    <script src="vendors/revolution/js/extensions/revolution.extension.actions.min.js"></script>
+    <script src="vendors/revolution/js/extensions/revolution.extension.carousel.min.js"></script>
+    <script type="text/javascript" src="vendors/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+    <script type="text/javascript" src="vendors/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+    <script type="text/javascript" src="vendors/revolution/js/extensions/revolution.extension.migration.min.js"></script>
+    <script src="vendors/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+    <script src="vendors/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+    <script src="vendors/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+    <script src="vendors/revolution/js/extensions/revolution.extension.video.min.js"></script>
+
+    <!-- Extra plugin js -->
+    <script src="vendors/image-dropdown/jquery.dd.min.js"></script>
+    <script src="vendors/animate-css/wow.min.js"></script>
+    <script src="vendors/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="vendors/bootstrap-selector/bootstrap-select.js"></script>
+    <script src="vendors/bootstrap-datepicker/js/moment-with-locales.js"></script>
+    <script src="vendors/bootstrap-datepicker/js/bootstrap-datetimepicker.min.js"></script>
+    <script src="vendors/counter-up/waypoints.min.js"></script>
+    <script src="vendors/counter-up/jquery.counterup.min.js"></script>
+    <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+    <script src="vendors/bs-tooltip/jquery.webui-popover.min.js"></script>
+    <script src="vendors/jquery-ui/jquery-ui.js"></script>
+
+
+    <script src="js/video_player.js"></script>
+    <script src="js/theme.js"></script>
+    <script src="js/Form.js"></script>
+    <script>
+        function readURL(input) {
+            if (input.files && input.files[0]) {
+                var reader = new FileReader();
+                reader.onload = function (e) {
+                    $('#imagePreview').css('background-image', 'url(' + e.target.result + ')');
+                    $('#imagePreview').hide();
+                    $('#imagePreview').fadeIn(650);
+                }
+                reader.readAsDataURL(input.files[0]);
+            }
+        }
+        $("#imageUpload").change(function () {
+            readURL(this);
+        });
+    </script>
+</body>
+
+</html>
